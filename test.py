@@ -6,4 +6,4 @@ with open('names.txt', 'r', encoding = 'utf-8') as file:
         if name == 'Катя':
             cnt += 1
 
-print(cnt)
+print(f'Кол-во имени Катя в списке: {cnt}')
